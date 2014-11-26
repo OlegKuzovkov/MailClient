@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Feb 10 15:45:23 EET 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=MailClient.jar
+manifest.mergeall=true
+manifest.mainclass=Package.MailClient
+manifest.file=Manifest.mf.txt
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
