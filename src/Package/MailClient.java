@@ -56,20 +56,6 @@ public class MailClient {
 					}
 				}
 				Finish=System.currentTimeMillis();
-				/*System.out.println(System.currentTimeMillis());
-				try{
-					mails = mailBox.FindMails(MailClient.Num,MailClient.Seen,MailClient.From,MailClient.Subject,MailClient.Body);
-				}catch(javax.mail.MessagingException ex1){
-					mailBox.Disconnect();
-					try {
-					    Thread.sleep(500);
-					} catch(InterruptedException ex) {
-					    Thread.currentThread().interrupt();
-					}
-					mailBox=new MailBox(MailClient.UserName,MailClient.Password,MailClient.Imap);
-				}
-				Finish=System.currentTimeMillis();
-				*/
 			}
 			if (mails!=null){
 				mailBox.SetMessagesState(MailClient.MarkAsRead);

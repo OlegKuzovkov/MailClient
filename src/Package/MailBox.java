@@ -40,7 +40,6 @@ public class MailBox {
 	}
 
 	public void Disconnect(){
-		//if (store.isConnected()){
 			try {
 				store.close();
 				System.out.println("Disconnected successfully");
@@ -48,7 +47,6 @@ public class MailBox {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}	
-		//}
 	}
 	public MailContent ParseEmailContent(Message message){
 		MailContent EmailContent=new MailContent();

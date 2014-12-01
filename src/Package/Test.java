@@ -10,8 +10,6 @@ public class Test {
 	 */
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		// TODO Auto-generated method stub
-		// Added some comments
-		// More comments
 		String hexString = "\u041F\u0440\u0438\u0432\u0435\u0442\u0020\u0432\u0441\u0435\u043C\u0021";    
 		String string = "\u003c and \u003e";
 	    byte[] converttoBytes = hexString.getBytes("UTF-8");
